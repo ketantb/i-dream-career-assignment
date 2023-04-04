@@ -29,7 +29,7 @@ router.post("/signin", async (req, res) => {
                 res.status(200).send({
                     success: true,
                     message: 'Login Successful',
-                    data: { token, userEmail: user.userEmail }
+                    data: { token, userEmail: user.userName }
                 });
 
             }
