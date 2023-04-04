@@ -1,0 +1,136 @@
+/* 1rem = 16px
+60rem = 60 * 16 = 960px;
+
+1rem = 10px
+6rem = 60px 
+
+100% = 16px
+62.5% = 10px
+*/
+
+html{
+    /* font-size: 10px; */
+    font-size: 62.5%;
+    overflow: overlay;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.lens-img{
+    width: 50vw;
+    height: 100vh;
+}
+
+.landing-page-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.landing-page-left-col{
+    width: 50vw;
+    height: 100vh;
+    background-image:url("../../../public/Assets/lens-1418954.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background: transparent url("../../../public/Assets/lens-1418954.jpg") 0% 30% no-repeat padding-box; */
+}
+
+
+.landing-page-right-col{
+    display: flex;
+    flex-direction: column;
+    color: #006238;
+    margin: auto;
+}
+
+.team-name{
+    font-size: 6.4rem;
+}
+
+.enter-btn{
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    width: 12.8rem;
+    height: 6.4rem;
+    font-size: 3.2rem;
+    border: 0.3rem solid #006238;
+    border-radius: 1.6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0px;
+}
+
+
+.enter-hover:hover{
+    /* background-color: #59f5e5; */
+    color: rgb(255, 37, 74);
+    border-color: rgb(255, 37, 74);
+}
+
+.enter-btn-link{
+    text-decoration: none;
+    color: #006238;
+}
+
+@media (max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        
+    }
+    .landing-page-container{
+        flex-direction:column;
+    }
+    .landing-page-left-col{
+        width: 100%;
+        height: 50vh;
+    }
+    .landing-page-right-col{
+        margin-top: 5rem;
+    }
+    .team-name{
+        font-size: 6rem;
+    }
+    .enter-btn{
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 720px){
+    html{
+        font-size: 45%;
+    }
+    .landing-page-right-col{
+        margin-top: 8rem;
+    }
+    .team-name{
+        font-size: 5.8rem;
+    }
+    .enter-btn{
+        margin-left: 25%;
+    }
+} 
+
+@media (max-width: 480px){
+    html{
+        font-size: 38%;
+    }
+    .landing-page-right-col{
+        margin-top: 10rem;
+    }
+    .enter-btn{
+        margin-left: 30%;
+    }
+    .team-name{
+        font-size: 7rem;
+    }
+}

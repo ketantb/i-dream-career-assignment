@@ -1,0 +1,96 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.card{
+    width: 54rem;
+    /* height: 52rem; */
+    box-sizing: content-box;
+    padding-bottom: 3rem;
+    margin: auto;
+    margin-top: 5rem;
+    border: 0.1rem solid #707070;
+    border-radius: 10px;
+}
+
+#post-img{
+    width: 54rem;
+    height: 36rem;
+    margin-top: 1.5rem;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    width: 48rem;
+    height: 6rem;
+}
+
+.card-header:first-child{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem
+}
+
+.more-icon-block{
+    margin-top: 1rem;
+}
+
+.more-icon{
+    font-size: 2.2rem;
+}
+
+.user-name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.user-location{
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.likebtn-share-date-block{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+.like-share-block{
+    display: flex;
+}
+
+.heart-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.share-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 1.5rem;
+}
+
+
+.date{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.like-count{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 3rem;
+    margin-top: 0.8rem;
+}
+
+.description{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
